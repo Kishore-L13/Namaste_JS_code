@@ -18,7 +18,7 @@ const reverseEachWord = (sentence) => {
     }
 
     // reverse and add the last word (if any)
-    for (let j = word.length - 1; j >= 0; j--) {
+    for (let j = word.length - 1; j >= 0; j--) { 
         result += word[j];
     }
 
